@@ -1,8 +1,6 @@
 # TempRef — Temporal Refinement for Video Super-Resolution
 
-This is the repository for our MIT 6.S058 final project on video super-resolution techniques.
-
-Due to the large sizes of the files, we could only upload them as a release v1.0. It contains the code, trained models, and generated outputs for **TempRef**, a lightweight post-processing network that reduces temporal flickering in the outputs of frame-based video super-resolution models. The project is described in full in our report.
+Due to the large sizes of the files, we could only upload them as a release v1.0. It contains the code, trained models, and generated outputs for **TempRef**, a lightweight post-processing network that reduces temporal flickering in the outputs of frame-based video super-resolution models. The project is described in full in our report. For easier and more structured access to the files, refer to: https://drive.google.com/drive/folders/1C3cZtGGQDHhmZHYW3dk-clNVcbNz2QQ1?usp=sharing
 
 ### Data (`data/`, `val_sharp/`)
 
