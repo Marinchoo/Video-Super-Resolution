@@ -1,6 +1,6 @@
 # TempRef — Temporal Refinement for Video Super-Resolution
 
-Due to the large sizes of the files, we could only upload them as a release v1.0. It contains the code, trained models, and generated outputs for **TempRef**, a lightweight post-processing network that reduces temporal flickering in the outputs of frame-based video super-resolution models. The project is described in full in our report. For easier and more structured access to the files, refer to: https://drive.google.com/drive/folders/1C3cZtGGQDHhmZHYW3dk-clNVcbNz2QQ1?usp=sharing
+Due to the large sizes of the files, we could only upload them as a release v1.0. It contains the code, trained models, and generated outputs for **TempRef**, a lightweight post-processing network that reduces temporal flickering in the outputs of frame-based video super-resolution models. The project is described in full in our report.
 
 ### Data (`data/`, `val_sharp/`)
 
@@ -32,3 +32,5 @@ All folders whose names begin with `videos` contain comparison videos generated 
 3. Run the corresponding `evaluation*.ipynb` notebook to compute PSNR, LPIPS, and TCE on REDS4.
 
 All notebooks are designed to run on Google Colab with a GPU runtime. Data is read from and checkpoints are written to Google Drive; update the path variables at the top of each notebook to match your Drive layout.
+
+For easier and more structured access to the files, refer to: https://drive.google.com/drive/folders/1C3cZtGGQDHhmZHYW3dk-clNVcbNz2QQ1?usp=sharing
